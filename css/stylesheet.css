@@ -1,0 +1,551 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+input, select {
+    vertical-align: middle;
+}
+
+body {
+    background-color: #c1bdba;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.form-control{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    text-align: left;
+    color: #263d48;
+}
+
+.form-control:focus{
+    box-shadow: none;
+    border-color: #ccc;
+}
+
+.input-group-addon{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+}
+
+.input-group-addon{
+    color: #21c9a6;
+}
+
+.btn-default{
+    background-color: #21c9a6;
+    color: #ffffff;
+    border: none;
+    border-radius: 2px;
+    font-size: 13px;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+.btn-default:hover, .btn-default:focus{
+    background-color: #21c9a6;
+    opacity: .8;
+    color: #fff;
+}
+
+/*Sign up box*/
+
+.sign-up-box-container {
+    max-width: 350px;
+    background-color: #fcfcfc;
+    margin: 75px auto  0 auto;
+    box-shadow: 0px 2px 3px 0px #4f3d30;
+    border-top: 5px solid #21c9a6;
+}
+
+.sign-up-form-container {
+    padding: 50px 40px 0px 40px;
+    display: inline-block;
+    width: 100%;
+}
+
+
+.sign-up-form-container h1{
+    font-size: 30px;
+    font-weight: 600;
+    text-align:center;
+    margin-bottom: 20px;
+}
+
+.sign-up-form-container .btn-default {
+    box-shadow: 0px 2px 3px 0 rgba(24, 24, 25, 0.15);
+    width: 100%;
+    margin-top: 15px;
+}
+
+.forgot-password-text {
+    font-size: 12px;
+    line-height: 1.33;
+    text-align:center;
+    color: #bcc9c6;
+    margin-top: 5px;
+    text-decoration: underline;
+    margin-bottom: 100px;
+}
+
+.sign-up-bottom-create-now-text {
+    color: #21c9a6;
+    text-decoration: underline;
+    text-align:center;
+}
+
+.sign-up-footer {
+    padding: 20px 15px;
+    border-top: 1px solid #e5e5e5;
+    font-size: 12px;
+    color: #bcc9c6;
+}
+
+/*Authentication screen*/
+
+h1 {
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    color: #ffffff;
+}
+
+.authentication-container {
+    background:#24323B;
+    padding: 40px;
+    max-width:600px;
+    margin:40px auto;
+    border-radius:2px;
+    box-shadow:0 4px 10px 4px #cccccc;
+    min-height: 490px;
+}
+
+.ui-tabs .ui-tabs-nav li {
+    width:50%;
+    text-align: center;
+}
+
+.nav-tabs.nav-justified>li>a {
+    background-color: #41545A;
+    color: #9CA8A6;
+    border: none;
+    border-radius: 0;
+}
+
+.nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:focus, .nav-tabs.nav-justified>.active>a:hover{
+    background-color: #1ab188;
+    color: #ffffff;
+    border-radius: 0;
+    border: none;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.authentication-form{
+    margin: 25px 0 25px 0;
+}
+
+.top-bar-container{
+    width: 100%;
+    margin-top: 20px;
+}
+.top-input-container-left{
+    float:left;
+    display: inline;
+    margin-right: 5px;
+    width: 48%;
+}
+
+.top-input-container-right{
+    float:left;
+    display: inline;
+    margin-left: 5px;
+    width: 50%;
+}
+
+
+.form-control-authentication{
+    background: transparent;
+    border: 1px solid #88969F;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    text-align: left;
+    color: #88969F;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.btn-default-authentication{
+    margin-top: 25px;
+}
+
+
+/*Gird view html*/
+.jumbotron-billboard {
+    max-height: 400px;
+    overflow: hidden;
+    padding-top: 100px;
+}
+.jumbotron-billboard .back-img {
+    margin-bottom: 0px;
+    color: #fff;
+    background: #000 url("../images/layer-1.png") center center;
+    width: 100%;
+    height: 125%;
+    background-size: cover;
+    overflow: hidden;
+    position:absolute;
+    top:0;left:0;
+    z-index:1;
+}
+.jumbotron {position:relative;}
+.jumbotron .container {
+    z-index:2;
+    position:relative;
+    z-index:2;
+}
+
+
+@media screen and (min-width: 768px){
+    .jumbotron .h1, .jumbotron h1 {
+        font-size: 50px;
+        color: #ffffff;
+        font-family: Lato;
+        text-align: left;
+        color: #ffffff;
+        text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.75);
+    }
+    .jumbotron p {
+        font-size: 16px;
+        color: #ffffff;
+        margin: 10px 0 10px 0;
+        width: 80%;
+        color: #ffffff;
+        text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.75);
+    }
+    .btn-top{
+        background-color: #5e95cd;
+        color: #ffffff;
+        border: none;
+        border-radius: 0;
+        font-size: 15px;
+        font-weight: 600;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 35px;
+        padding-right: 35px;
+        margin-top: 10px;
+    }
+    body{
+        background-color: #ffffff;
+    }
+    .icon-outline{
+        background-color: #ffffff;
+        border: solid 2px #eaeaea;
+        border-radius: 50%;
+        height: 80px;
+        width: 80px;
+        margin: 0 auto;
+
+    }
+
+    .icon-color{
+        color: #e8776b;
+        font-size: 42px;
+        margin-top: 15px;
+    }
+}
+
+.second-title-txt {
+    font-family: Lato;
+    font-size: 16px;
+    text-align: center;
+    color: #333333;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+
+.second-des-txt {
+    font-family: Lato;
+    font-size: 14px;
+    color: #aaaaaa;
+    margin: 0 auto;
+}
+
+.bg-theme-buying{
+    background-color: #e8776b;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.interested-in-buying-this-theme-txt {
+    font-family: Lato;
+    font-size: 20px;
+    text-align: left;
+    color: #ffffff;
+    padding-top: 5px;
+}
+
+.btn-buy-now {
+    border-radius: 5.6px;
+    background-color: #e8776b;
+    border: solid 1px #ffffff;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    color: #ffffff;
+
+}
+.bg-theme-about{
+     background-color: #5e95cd;
+     padding: 50px 10px 50px 10px;
+ }
+
+.about-title {
+    font-family: Lato;
+    font-size: 24px;
+    text-align: left;
+    color: #ffffff;
+}
+.about-description {
+    font-family: Lato;
+    font-size: 13px;
+    text-align: left;
+    color: #ffffff;
+    line-height: 1.4;
+}
+
+.bg-theme-price{
+    background-color: #ffffff;
+    padding: 50px 10px 50px 10px;
+}
+
+.table-title {
+    font-family: Lato;
+    font-size: 18px;
+    line-height: 1.33;
+    text-align: center;
+    color: #999999;
+    background-color: #dfdfdf;
+
+}
+
+
+.table-strat{
+    color: #999999;
+}
+
+.table-strat .col-md-2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    border: 1px solid #e1e1e1;
+}
+
+.tble_inactive-background{
+    background-color: rgb(226,226,226);
+}
+
+.tble_active-background{
+    background-color: #e8776b !important;
+    color: #fff !important;
+}
+
+.tb-price-title{
+    background-color: #eeeeee;
+    font-size: 30px;
+    color: #e8776b;
+    height: 100px;
+    line-height: 100px !important;
+}
+.btn-sign-up{
+    background-color: #e8776b;
+    align-content: center;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 5px;
+    border-bottom: 3px solid #e84e3c;
+    color: #ffffff;
+    margin-top: 10px;
+    line-height: 55px;
+    cursor: pointer;
+}
+
+.signup-box {
+    margin-bottom: 0px !important;
+    border-radius: 0px !important;
+    background: #ccc url(../images/layer-1.png) center center;
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    overflow: hidden;
+    z-index: 1;
+}
+.signup-box h3 {
+    text-align: center;
+    color:white;
+    font-family: Lato;
+    font-size: 24px;
+    line-height: 1;
+    text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.75);
+}
+
+.signup-box input {
+    border :none;
+    width: 326px;
+    height: 38.2px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    align-content: center;
+    margin : 0 auto;
+    align :center;
+    margin-left: 165px;
+    padding :20px;
+    float:right;
+
+
+}
+
+.margin-top{
+    margin-top: 10px;
+}
+
+.signup-box button {
+    margin-top:0px;
+}
+
+.footer {
+    background-color: #e8776b !important;
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+    color: white !important;
+    margin-bottom: 0px !important;
+}
+
+.messageicon {
+    background-color: #e8776b;
+    height: 40px;
+    width :40px;
+    border: solid 2px #ffffff;
+    border-radius: 50%;
+}
+
+.inlineicon {
+    display: inline-flex;
+}
+
+.glyphicon-envelope{
+    font-size: 14px;
+    margin-top: 10px;
+
+}
+
